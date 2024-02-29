@@ -48,14 +48,14 @@ public class PatternRunner {
 
         // CALL METHOD FOR PROBLEM 6: drawDiagSplit() Along the "slope = -1 diagonal", split the grid, one color each side
         // Four arguments: your ColorGrid instance, your Bridges instance, color, color)
-        //pat.drawDiagSplit(grid, bridges, new Color("blue"), new Color("yellow"));
+        pat.drawDiagSplit(grid, bridges, new Color("blue"), new Color("yellow"));
 
         // CALL METHOD FOR PROBLEM 7: drawQuadrants()  Show the 4-quadrants in a different color for each.
         // If the ColorGrid has  an odd number of rows and an odd number of columns,
         // show the x and y axes in yet another color. Otherwise, the four quadrants will show
         // and the x and y axes will merely be suggested by the color changes
         // Six arguments: your ColorGrid instance, your Bridges instance, color, color, color, color)
-        pat.drawQuadrants(grid, bridges, new Color("blue"), new Color("yellow"), new Color("green"), new Color("red"));
+        //pat.drawQuadrants(grid, bridges, new Color("blue"), new Color("yellow"), new Color("green"), new Color("red"));
 
     } // end main method
 } // end class
